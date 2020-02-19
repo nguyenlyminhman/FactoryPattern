@@ -11,7 +11,7 @@ Trong Factory Pattern, chúng ta tạo đối tượng mà không để lộ log
 Factory Pattern được sử dụng khi có một class cha (super-class) với nhiều class con (sub-class), dựa trên đầu vào và phải trả về 1 trong những class con đó.
 
 
-#Lợi ích của Factory Pattern:
+# Lợi ích của Factory Pattern:
 
 - Factory Pattern giúp giảm sự phụ thuộc giữa các module (loose coupling): cung cấp 1 hướng tiếp cận với Interface thay thì các implement. Giúp chuơng trình độc lập với những lớp cụ thể mà chúng ta cần tạo 1 đối tượng, code ở phía client không bị ảnh hưởng khi thay đổi logic ở factory hay sub class.
 
