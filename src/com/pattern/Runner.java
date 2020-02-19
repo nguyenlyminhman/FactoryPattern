@@ -6,6 +6,6 @@ public class Runner {
         Animal dog = AnimalFactory.getAnimal("dog", "4", "black", "gau gau");
 
         System.out.println("Factory cat: " + cat);
-        System.out.println("Factory cat: " + dog);
+        System.out.println("Factory dog: " + dog);
     }
 }
